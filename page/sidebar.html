@@ -1,0 +1,15 @@
+<div ng-controller="f_sidebar" class="f_sidebar">
+
+    <uib-accordion close-others="oneAtATime">
+        <div uib-accordion-group class="panel-default" is-open="status.open">
+            <uib-accordion-heading>
+                信息管理 <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+            </uib-accordion-heading>
+            <a>公司列表</a><br>
+            <a>职位列表</a>
+        </div>
+    </uib-accordion>
+</div>
+<div class="f_show" ui-view="">
+    <h1>Welcome!</h1>
+</div>

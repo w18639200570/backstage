@@ -1,0 +1,30 @@
+html {
+  font-size: 625%;
+}
+.f_headtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.f_logo {
+  width: 300px;
+  font-size: .2rem;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 6.9vh;
+  font-weight: 600;
+  background: #cce8cf;
+}
+.f_sidebar {
+  display: inline-block;
+  width: 300px;
+  height: 93vh;
+  background-color: #cce8cf;
+}
+.f_show {
+  display: inline-block;
+}
+.f_showall {
+  display: flex;
+}
